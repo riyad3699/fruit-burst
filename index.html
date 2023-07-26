@@ -96,7 +96,7 @@
     <main class="lg:max-w-[1440px] lg:mx-auto mx-3">
         <!-- slider section -->
         <section class="mb20">
-            <div class="carousel w-full mb-10 h-[300px] lg:h-[600px] rounded-md">
+            <div class="carousel w-full h-[300px] lg:h-[600px] rounded-md z-0 relative">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero min-h-full" style="background-image: url(./images/banner1.png);">
                         <div class="hero-overlay bg-opacity-50"></div>
@@ -174,13 +174,36 @@
                     </div>
                 </div>
             </div>
+
+            <div class="hidden lg:flex gap-10 p-10 bg-white rounded-lg shadow-md w-[1200px] justify-between text-center mx-auto -mt-28 ml-28 z-20 absolute">
+                <div>
+                    <img src="images/fruit1.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="images/fruit5.png" alt="">
+                    <p>Mango</p>
+                </div>
+            </div>
         </section>
         <!-- deal of the day section -->
-        <section class="mb-20">
+        <section class="mb-20 mt-20 lg:mt-60">
             <div class="flex flex-col justify-center">
                 <div class="flex flex-col lg:flex-row mb-10 gap-5 text-center lg:text-start">
                     <div class="flex-1 items-center">
-                        <h3 class="text-5xl font-extrabold mb-3 text-[#121212]">Deal of the day</h3>
+                        <h3 class="text-3xl lg:text-5xl font-extrabold mb-3 text-[#121212]">Deal of the day</h3>
                         <p class="text-description-primary">Contrary to popular belief, is not simply random text. It has
                             roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
@@ -216,7 +239,7 @@
                 <!-- card section -->
                 <div class="mb-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5">
                     <!-- card 1 -->
-                    <div class="card bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 border shadow-xl">
                         <figure class="px-10 pt-10">
                             <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -257,7 +280,7 @@
                         </div>
                     </div>
                     <!-- card 2 -->
-                    <div class="card bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 border shadow-xl">
                         <figure class="px-10 pt-10">
                             <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -298,7 +321,7 @@
                         </div>
                     </div>
                     <!-- card 3 -->
-                    <div class="card bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 border shadow-xl">
                         <figure class="px-10 pt-10">
                             <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -339,7 +362,7 @@
                         </div>
                     </div>
                     <!-- card 4 -->
-                    <div class="card bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 border shadow-xl">
                         <figure class="px-10 pt-10">
                             <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -647,7 +670,7 @@
         <!-- why choose us section -->
         <section class="mb-20">
             <div class="text-center">
-                <h3 class="text-5xl font-extrabold pb-5">Why Choose Us</h3>
+                <h3 class="text-3xl lg:text-5xl font-extrabold pb-5">Why Choose Us</h3>
                 <p class="text-description-primar pb-10 font-medium lg:px-80">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class="flex flex-col lg:flex-row">
@@ -786,10 +809,10 @@
             </div>
         </section>
     </main>
-    <footer class="footer footer-center p-10 bg-black py-32 gap-20">
+    <footer class="footer footer-center p-10 bg-black py-20 gap-12">
         <div class="flex gap-4">
           <img src="images/logo.png" alt="">
-          <p class="text-5xl font-black text-white">
+          <p class="text-3xl lg:text-5xl font-black text-white">
             Fruit Burst
           </p> 
         </div> 
